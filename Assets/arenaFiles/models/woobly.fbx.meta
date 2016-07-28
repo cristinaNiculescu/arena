@@ -1,0 +1,248 @@
+fileFormatVersion: 2
+guid: 436341929a6c9dc4f840e45fdf2d49cc
+timeCreated: 1469617780
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: body
+    100002: bottom_Joint
+    100004: head
+    100006: head 1
+    100008: head_Joint
+    100010: leftEar
+    100012: leftEye
+    100014: leftLeg
+    100016: leftLeg_Joint
+    100018: midBody_Joint
+    100020: neck_Joint
+    100022: rightEar
+    100024: rightEye
+    100026: rightLeg
+    100028: rightLeg_Joint1
+    100030: //RootNode
+    100032: woobly
+    400000: body
+    400002: bottom_Joint
+    400004: head
+    400006: head 1
+    400008: head_Joint
+    400010: leftEar
+    400012: leftEye
+    400014: leftLeg
+    400016: leftLeg_Joint
+    400018: midBody_Joint
+    400020: neck_Joint
+    400022: rightEar
+    400024: rightEye
+    400026: rightLeg
+    400028: rightLeg_Joint1
+    400030: //RootNode
+    400032: woobly
+    4300000: leftLeg
+    4300002: body
+    4300004: rightLeg
+    4300006: head
+    4300008: rightEye
+    4300010: leftEye
+    4300012: leftEar
+    4300014: rightEar
+    7400000: wobbly_move
+    7400002: wobbly_idle
+    9500000: //RootNode
+    13700000: body
+    13700002: head 1
+    13700004: leftEar
+    13700006: leftEye
+    13700008: leftLeg
+    13700010: rightEar
+    13700012: rightEye
+    13700014: rightLeg
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: wobbly_move
+      takeName: wobblyChar.0010
+      firstFrame: 1
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: midBody_Joint
+        weight: 1
+      - path: midBody_Joint/bottom_Joint
+        weight: 1
+      - path: midBody_Joint/bottom_Joint/leftLeg_Joint
+        weight: 1
+      - path: midBody_Joint/bottom_Joint/rightLeg_Joint1
+        weight: 1
+      - path: midBody_Joint/neck_Joint
+        weight: 1
+      - path: midBody_Joint/neck_Joint/head_Joint
+        weight: 1
+      - path: woobly
+        weight: 1
+      - path: woobly/body
+        weight: 1
+      - path: woobly/head
+        weight: 1
+      - path: woobly/head/head 1
+        weight: 1
+      - path: woobly/head/leftEar
+        weight: 1
+      - path: woobly/head/leftEye
+        weight: 1
+      - path: woobly/head/rightEar
+        weight: 1
+      - path: woobly/head/rightEye
+        weight: 1
+      - path: woobly/leftLeg
+        weight: 1
+      - path: woobly/rightLeg
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: wobbly_idle
+      takeName: wobblyChar.0010
+      firstFrame: 1
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: midBody_Joint
+        weight: 1
+      - path: midBody_Joint/bottom_Joint
+        weight: 1
+      - path: midBody_Joint/bottom_Joint/leftLeg_Joint
+        weight: 1
+      - path: midBody_Joint/bottom_Joint/rightLeg_Joint1
+        weight: 1
+      - path: midBody_Joint/neck_Joint
+        weight: 1
+      - path: midBody_Joint/neck_Joint/head_Joint
+        weight: 1
+      - path: woobly
+        weight: 1
+      - path: woobly/body
+        weight: 1
+      - path: woobly/head
+        weight: 1
+      - path: woobly/head/head 1
+        weight: 1
+      - path: woobly/head/leftEar
+        weight: 1
+      - path: woobly/head/leftEye
+        weight: 1
+      - path: woobly/head/rightEar
+        weight: 1
+      - path: woobly/head/rightEye
+        weight: 1
+      - path: woobly/leftLeg
+        weight: 1
+      - path: woobly/rightLeg
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 90
+    normalImportMode: 1
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
